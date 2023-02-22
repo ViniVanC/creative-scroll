@@ -40,6 +40,15 @@ body {
   overflow-x: hidden;
 }
 
+/* will-change */
+
+.content,
+.hero,
+.main-header,
+.gallery > * {
+  will-change: transform;
+}
+
 .hero {
   width: calc(var(--index) * 43);
   position: absolute;
